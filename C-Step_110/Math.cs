@@ -9,9 +9,24 @@ namespace C_Step_110
     public class Math
     {
 
-        public int AddOne { get; set; }
-        public int SubtractOne { get; set; }
-        public int Squared { get; set; }
+        
+        public int Addition(int userInput)
+        {
+            int mathAnswer1 = userInput + 1;
+            return mathAnswer1;
+        }
+
+        public int Subtraction(int userInput)
+        {
+            int mathAnswer1 = userInput - 1;
+            return mathAnswer1;
+        }
+
+        public int SquareIt(int userInput)
+        {
+            int mathAnswer1 = userInput * userInput;
+            return mathAnswer1;
+        }
 
     }
     
